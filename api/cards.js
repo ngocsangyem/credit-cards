@@ -2,13 +2,13 @@ const express = require('express');
 const router = express.Router();
 
 /**
- * GET product list.
+ * GET cards list.
  *
- * @return product list | empty.
+ * @return cards list | empty.
  */
 router.get('/', async (req, res) => {
 	try {
-		res.send({
+		res.json({
 			cards: [
 				{
 					card_number: ' 5273327110452709',
@@ -361,10 +361,6 @@ router.get('/', async (req, res) => {
 					id: 'face028b-7f7e-41be-9683-014a501617b9',
 				},
 			],
-		});
-		res.json({
-			status: 200,
-			message: 'Get data has successfully',
 		});
 	} catch (error) {
 		console.error(error);
