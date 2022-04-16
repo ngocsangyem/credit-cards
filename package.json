@@ -1,5 +1,5 @@
 {
-  "name": "express-vercel",
+  "name": "credit-cards",
   "version": "1.0.0",
   "description": "Deploy express js to vercel.",
   "main": "index.js",
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hatuanem199801/express-vercel.git"
+    "url": "git+https://github.com/ngocsangyem/credit-cards.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hatuanem199801/express-vercel/issues"
+    "url": "https://github.com/ngocsangyem/credit-cards/issues"
   },
-  "homepage": "https://github.com/hatuanem199801/express-vercel#readme",
+  "homepage": "https://github.com/ngocsangyem/credit-cards#readme",
   "dependencies": {
     "express": "^4.17.1"
   }
